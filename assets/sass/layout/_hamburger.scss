@@ -179,12 +179,12 @@
 @media (max-width: 768px) {
   .l-hamburger {
     width: 100%;
+    &::after {
+      border-width: 130px 100vw 28px;
+    }
     & ul li {
       width: 70%;
       margin: 10px auto;
-      a ::after {
-        width: 100%; /*hover時に100%で広がる*/
-      }
       .l-hamburger__en {
         font-size: 1em;
       }
@@ -192,9 +192,10 @@
         font-size: 0.8em;
       }
     }
-    &::after {
-      opacity: -1;
-    }
+  }
+  .l-hamburger__txt {
+    margin-top: 70px;
+    position: relative;
   }
   .l-hamburger__title {
     font-size: 2em;

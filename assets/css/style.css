@@ -751,13 +751,12 @@ h3 {
   .l-hamburger {
     width: 100%;
   }
+  .l-hamburger::after {
+    border-width: 130px 100vw 28px;
+  }
   .l-hamburger ul li {
     width: 70%;
     margin: 10px auto;
-  }
-  .l-hamburger ul li a ::after {
-    width: 100%;
-    /*hover時に100%で広がる*/
   }
   .l-hamburger ul li .l-hamburger__en {
     font-size: 1em;
@@ -765,8 +764,9 @@ h3 {
   .l-hamburger ul li .l-hamburger__ja {
     font-size: 0.8em;
   }
-  .l-hamburger::after {
-    opacity: -1;
+  .l-hamburger__txt {
+    margin-top: 70px;
+    position: relative;
   }
   .l-hamburger__title {
     font-size: 2em;
@@ -1180,19 +1180,13 @@ h3 {
   text-align: center;
 }
 
-.p-contact__mail {
-  margin-top: 50px;
-  font-size: 1.5em;
-  text-align: center;
-  font-family: "Abel", "Noto Sans JP", sans-serif;
-}
-
-.p-contact__mail a {
+.p-contact__text a {
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
+  text-decoration: underline;
 }
 
-.p-contact__mail a:hover {
+.p-contact__text a:hover {
   opacity: 0.3;
 }
 
@@ -1205,6 +1199,12 @@ h3 {
   width: 38.43%;
   margin: 28px auto 0;
   text-align: left;
+  list-style-type: disc;
+  color: #C57D86;
+}
+
+.p-contact ul li span {
+  color: #505050;
 }
 
 @media (max-width: 768px) {
@@ -1212,11 +1212,6 @@ h3 {
     width: 80%;
     margin: 50px auto 0;
     font-size: 0.8em;
-  }
-  .p-contact__mail {
-    width: 80%;
-    margin: 50px auto 0;
-    font-size: 1.2em;
   }
   .p-contact ul li {
     width: 80%;
