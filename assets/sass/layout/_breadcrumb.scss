@@ -1,0 +1,25 @@
+.l-breadcrumb {
+  margin: 195px 0 0;
+  text-align: center;
+  position: relative;
+  padding-top: 200px;
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 150px;
+    background-color: $main_black_color;
+    opacity: 0.3;
+    z-index: 10;
+  }
+  a {
+    font-family: $font_abel;
+    font-size: 1.125em;
+    transition: opacity 0.3s ease;
+    &:hover {
+      opacity: 0.3;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+html {
+  scroll-padding-top: 70px;//ページ内リンクが固定ヘッダーと重なって隠れる問題を解決
+  overflow-y: scroll;
+  color: $main_black_color;
+  background-color: $base_color;
+  font-family: $font_base;
+  -webkit-text-size-adjust: 100%; //回転時の文字サイズ自動調整機能をオフにする
+}
+body {
+  letter-spacing: 0.1em;
+}
+a {
+  text-decoration: none;
+  color: $main_black_color;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+::selection {
+  background-color: $main_color;
+  color: $main_black_color;
+  text-shadow: none;
+}
+@media (max-width: 768px) {
+  html {
+    width: 100%;
+  }
+}

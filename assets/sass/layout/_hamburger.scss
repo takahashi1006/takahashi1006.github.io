@@ -1,0 +1,207 @@
+.l-hamburger {
+  background: $base_color;
+  color: $main_black_color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 990;
+  text-align: center;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  opacity: 0;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+  &::before {
+    //三角形を合わせて台形を作る
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 151px 100vw 28px;
+    border-color: transparent transparent $main_color transparent;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 151px 100vw 28px;
+    border-color: transparent transparent transparent $main_color;
+  }
+  &__title {
+    font-size: 2.5em;
+    letter-spacing: 0.3em;
+    width: 185px;
+    background: linear-gradient(transparent 70%, $main_color 70%);
+    margin: 0 auto 50px;
+  }
+  ul {
+    width: 352px;
+    margin: 0 auto;
+    li {
+      margin: 10px 0;
+      &:after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+      &:before {
+        position: absolute;
+        content: "";
+        bottom: 12px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $main_black_color;
+        opacity: 0.3;
+        z-index: -1;
+      }
+      a {
+        display: block;
+        text-decoration: none;
+        padding: 10px 0;
+        transition: color 0.6s ease;
+        &::after {
+          content: "";
+          width: 0%; /*最初はwidth:0にする*/
+          height: 25%;
+          background: $accent_color;
+          position: absolute;
+          bottom: 10%;
+          left: 0;
+          z-index: 1000;
+          opacity: 0.5;
+          transition: all 0.5s; /*アニメーションの長さ*/
+        }
+        &:hover::after {
+          width: 100%; /*hover時に100%で広がる*/
+        }
+      }
+      .l-hamburger__en {
+        padding-right: 10px;
+        background-color: $base_color;
+        float: left;
+        font-family: $font_abel;
+        font-size: 1.125em;
+      }
+      .l-hamburger__ja {
+        font-size: 0.813em;
+        padding-left: 10px;
+        background-color: $base_color;
+        float: right;
+        right: 0;
+      }
+    }
+  }
+  &__txt {
+    margin-top: 100px;
+    font-size: 0.625em;
+    font-family: $font_abel;
+    z-index: 1000;
+  }
+}
+.l-hamburger__toggle {
+  position: fixed;
+  top: 85px;
+  right: 130px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 1000;
+  > div {
+    position: relative;
+    width: 36px;
+  }
+  span {
+    width: 100%;
+    height: 1px;
+    left: 0;
+    display: block;
+    background: $main_black_color;
+    position: absolute;
+    transition: transform 0.6s ease-in-out, top 0.5s ease;
+    &:nth-child(1) {
+      top: 0;
+    }
+    &:nth-child(2) {
+      top: 14px;
+    }
+    &:nth-child(3) {
+      top: 28px;
+    }
+    &:hover span:nth-child(1) {
+      top: 4px;
+    }
+    &:hover span:nth-child(3) {
+      top: 23px;
+    }
+  }
+}
+.open {
+  overflow: hidden;
+  .l-hamburger__toggle span {
+    background: $main_black_color;
+    &:nth-child(1) {
+      top: 15px;
+      transform: rotate(45deg);
+    }
+    &:nth-child(2) {
+      top: 15px;
+      width: 0;
+      left: 50%;
+    }
+    &:nth-child(3) {
+      top: 15px;
+      transform: rotate(-45deg);
+    }
+  }
+  .l-hamburger {
+    visibility: visible;
+    opacity: 1;
+    li {
+      opacity: 1;
+      transform: translateX(0);
+      transition: transform 1s ease, opacity 0.9s ease;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .l-hamburger {
+    width: 100%;
+    & ul li {
+      width: 70%;
+      margin: 10px auto;
+      a ::after {
+        width: 100%; /*hover時に100%で広がる*/
+      }
+      .l-hamburger__en {
+        font-size: 1em;
+      }
+      .l-hamburger__ja {
+        font-size: 0.8em;
+      }
+    }
+    &::after {
+      opacity: -1;
+    }
+  }
+  .l-hamburger__title {
+    font-size: 2em;
+    width: 150px;
+  }
+  .l-hamburger__toggle {
+    top: 50px;
+    right: 20px;
+  }
+}

@@ -1,0 +1,59 @@
+.p-service {
+  overflow: hidden;
+  margin-top: -110px; //高さ調整
+  ul {
+    width: 964px;
+    margin: 50px auto 0;
+    li {
+      float: left;
+      width: 250px;
+      vertical-align: top;
+      margin-right: 106px;
+      &:nth-child(3) {
+        margin-right: 0;
+      }
+      .p-service__en {
+        margin-top: 20px;
+        font-size: 1.5em;
+        text-align: center;
+        letter-spacing: 0.16em;
+      }
+      .p-service__ja {
+        text-align: center;
+      }
+      .p-service__txt {
+        margin-top: 13px;
+        line-height: 1.56;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .p-service {
+    ul {
+      width: 80%;
+      li {
+        float: none;
+        margin: 50px 0 0;
+        width: 100%;
+      }
+      .p-service__img {
+        text-align: center;
+        & img {
+          width: 200px;
+          height: 200px;
+          margin-bottom: -10px;
+        }
+      }
+      .p-service__en {
+        font-size: 1.2em !important;
+      }
+      .p-service__ja {
+        font-size: 0.8em;
+      }
+      .p-service__txt {
+        font-size: 0.8em;
+      }
+    }
+  }
+}

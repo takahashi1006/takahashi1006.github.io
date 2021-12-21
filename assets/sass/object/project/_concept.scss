@@ -1,0 +1,21 @@
+.p-concept {
+  background-color: $main_color;
+  -webkit-clip-path: polygon(0 31%, 100% 13%, 100% 79%, 0% 98%); //(0 0, 100% 0%, 100% 60%, 0% 100%)
+  clip-path: polygon(0 31%, 100% 13%, 100% 79%, 0% 98%);
+  text-align: center;
+  padding: 220px 0 303px;
+  margin-top: -110px; //高さ調整
+  p {
+    margin-top: 50px;
+    line-height: 1.6em;
+  }
+}
+@media (max-width: 768px) {
+  .p-concept {
+    p {
+      width: 80%;
+      margin: 50px auto 0;
+      font-size: 0.8em;
+    }
+  }
+}

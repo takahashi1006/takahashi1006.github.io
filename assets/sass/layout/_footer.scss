@@ -1,0 +1,21 @@
+.l-footer {
+  padding: 200px 0 55px;
+  text-align: center;
+  font-family: $font_abel;
+  font-size: 0.625em;
+  color: $base_color;
+  background-color: $accent_color;
+  -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+  clip-path: polygon(0 20%, 100% 75%, 100% 100%, 0 100%);
+  &__txt {
+    font-size: 0.625em;
+    font-family: $font_abel;
+  }
+}
+@media (max-width: 768px) {
+  .l-footer {
+    &__txt {
+      font-size: 0.8em;
+    }
+  }
+}

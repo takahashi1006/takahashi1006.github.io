@@ -1,0 +1,10 @@
+.p-works {
+  background-color: $accent_color;
+  -webkit-clip-path: polygon(100% 30%, 100% 96%, 0 82%, 0 15%);
+  clip-path: polygon(100% 30%, 100% 96%, 0 82%, 0 15%);
+  text-align: center;
+  padding: 262px 0 297px;
+  position: relative;
+  z-index: 1;
+  margin-top: -110px; //高さ調整
+}

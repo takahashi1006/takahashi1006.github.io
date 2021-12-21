@@ -1,0 +1,66 @@
+.c-slick {
+  margin: 50px auto 0;
+  max-width: 1033px;
+  width: 100%;
+  &__slick__img img {
+    opacity: 0.5; // スライドを薄くする
+    transform: scale(0.8); // スライドのサイズを80%にする
+    transition: opacity 0.5s, transform 0.5s; // スライド透過率と拡大のアニメーション時間を0.5秒に設定
+  }
+  .c-slick__slider .slick-center img {
+    opacity: 1; // 中央のスライドは透過しない
+    transform: scale(1); // 中央のスライドは小さくしない
+  }
+  .slick-arrow:before {
+    content: "" !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .slick-next:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    border-top: 1px $base_color solid;
+    border-right: 1px $base_color solid;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+    opacity: 1;
+    background-size: contain !important;
+  }
+  .slick-prev:before {
+    position: absolute;
+    content: "";
+    left: -20px;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    border-top: 1px $base_color solid;
+    border-right: 1px $base_color solid;
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+    opacity: 1;
+    z-index: 100;
+  }
+}
+@media (max-width: 768px) {
+  .c-slick {
+    width: 70%;
+    height: auto;
+    &__slick__img img {
+      opacity: 1; // スライドを濃くする
+      transform: scale(0.9); // スライドのサイズを90%にする
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
