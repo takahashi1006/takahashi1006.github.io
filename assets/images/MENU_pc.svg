@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <clipPath id="clip-MENU_pc">
+      <rect width="1366" height="768"/>
+    </clipPath>
+  </defs>
+  <g id="MENU_pc" clip-path="url(#clip-MENU_pc)">
+    <rect id="長方形_12" data-name="長方形 12" width="1366" height="768" transform="translate(0.069)" fill="#fefefe"/>
+    <rect id="長方形_13" data-name="長方形 13" width="1366" height="768" transform="translate(0.069)" fill="#f5eaea"/>
+    <g id="グループ_47" data-name="グループ 47" transform="translate(64 0.5)">
+      <line id="線_8" data-name="線 8" x2="32" y2="32" transform="translate(1131 75.5)" fill="none" stroke="#505050" stroke-width="1"/>
+      <line id="線_9" data-name="線 9" x1="32" y2="32" transform="translate(1131 75.5)" fill="none" stroke="#505050" stroke-width="1"/>
+    </g>
+    <text id="COPYRIGHT_YUMATAKAHASHI.JP" data-name="COPYRIGHTⒸYUMATAKAHASHI.JP" transform="translate(600.069 569)" fill="#505050" font-size="10" font-family="Abel-Regular, Abel" letter-spacing="0.1em"><tspan x="7.67" y="11">COPYRIGHT</tspan><tspan y="11" font-family="SegoeUISymbol, Segoe UI Symbol">Ⓒ</tspan><tspan y="11">YUMATAKAHASHI.JP</tspan></text>
+    <line id="線_1" data-name="線 1" x2="214" transform="translate(578.569 259.5)" fill="none" stroke="#dcdcdc" stroke-width="1"/>
+    <line id="線_2" data-name="線 2" x2="162.931" transform="translate(604.569 302.5)" fill="none" stroke="#dcdcdc" stroke-width="1"/>
+    <line id="線_13" data-name="線 13" x2="144" transform="translate(604.569 345.5)" fill="none" stroke="#dcdcdc" stroke-width="1"/>
+    <line id="線_12" data-name="線 12" x2="221" transform="translate(588.569 388.5)" fill="none" stroke="#dcdcdc" stroke-width="1"/>
+    <line id="線_11" data-name="線 11" x2="156" transform="translate(581.569 431.5)" fill="none" stroke="#dcdcdc" stroke-width="1"/>
+    <line id="線_10" data-name="線 10" x2="146" transform="translate(605.569 474.5)" fill="none" stroke="#dcdcdc" stroke-width="1"/>
+    <text id="HOME" transform="translate(513.069 248)" fill="#505050" font-size="18" font-family="Abel-Regular, Abel" letter-spacing="0.1em"><tspan x="0" y="18">HOME</tspan></text>
+    <text id="CONCEPT" transform="translate(513.069 291)" fill="#505050" font-size="18" font-family="Abel-Regular, Abel" letter-spacing="0.1em"><tspan x="0" y="18">CONCEPT</tspan></text>
+    <text id="SERVICE" transform="translate(513.069 334)" fill="#505050" font-size="18" font-family="Abel-Regular, Abel" letter-spacing="0.1em"><tspan x="0" y="18">SERVICE</tspan></text>
+    <text id="WORKS" transform="translate(513.069 377)" fill="#505050" font-size="18" font-family="Abel-Regular, Abel" letter-spacing="0.1em"><tspan x="0" y="18">WORKS</tspan></text>
+    <text id="ABOUT" transform="translate(513.069 420)" fill="#505050" font-size="18" font-family="Abel-Regular, Abel" letter-spacing="0.1em"><tspan x="0" y="18">ABOUT</tspan></text>
+    <text id="CONTACT" transform="translate(513.069 463)" fill="#505050" font-size="18" font-family="Abel-Regular, Abel" letter-spacing="0.1em"><tspan x="0" y="18">CONTACT</tspan></text>
+    <text id="ホーム" transform="translate(748.069 248)" fill="#505050" font-size="13" font-family="NotoSansJP-Regular, Noto Sans JP" letter-spacing="0.1em"><tspan x="62.79" y="15">ホーム</tspan></text>
+    <text id="コンセプト" transform="translate(748.069 291)" fill="#505050" font-size="13" font-family="NotoSansJP-Regular, Noto Sans JP" letter-spacing="0.1em"><tspan x="33.8" y="15">コンセプト</tspan></text>
+    <text id="サービス内容" transform="translate(748.069 334)" fill="#505050" font-size="13" font-family="NotoSansJP-Regular, Noto Sans JP" letter-spacing="0.1em"><tspan x="19.5" y="15">サービス内容</tspan></text>
+    <text id="実績" transform="translate(748.069 377)" fill="#505050" font-size="13" font-family="NotoSansJP-Regular, Noto Sans JP" letter-spacing="0.1em"><tspan x="76.7" y="15">実績</tspan></text>
+    <text id="わたしについて" transform="translate(748.069 420)" fill="#505050" font-size="13" font-family="NotoSansJP-Regular, Noto Sans JP" letter-spacing="0.1em"><tspan x="5.59" y="15">わたしについて</tspan></text>
+    <text id="お問い合わせ" transform="translate(748.069 463)" fill="#505050" font-size="13" font-family="NotoSansJP-Regular, Noto Sans JP" letter-spacing="0.1em"><tspan x="19.5" y="15">お問い合わせ</tspan></text>
+    <path id="前面オブジェクトで型抜き_1" data-name="前面オブジェクトで型抜き 1" d="M-3272,181.813H-4638V0l1366,151.271v30.541Z" transform="translate(4638 587.261)" fill="#e2beba" opacity="0.62"/>
+    <rect id="長方形_19" data-name="長方形 19" width="160" height="10" transform="translate(603 198)" fill="#e2beba"/>
+    <text id="MENU" transform="translate(514.069 165)" fill="#505050" font-size="40" font-family="Spinnaker-Regular, Spinnaker" letter-spacing="0.275em"><tspan x="89.367" y="38">MENU</tspan></text>
+  </g>
+</svg>
