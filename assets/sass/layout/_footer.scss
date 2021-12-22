@@ -12,3 +12,8 @@
     font-family: $font_abel;
   }
 }
+@media (max-width: 768px) {
+  .l-footer {
+  font-size: 0.8em;
+  }
+}
