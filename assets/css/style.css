@@ -960,9 +960,8 @@ h3 {
 
 .p-about {
   background-color: #E2BEBA;
-  /*-webkit-clip-path: polygon(80% 0, 100% 0%, 100% 90%, 0 100%, 0 8%);*/
   -webkit-clip-path: polygon(80% 0, 100% 0%, 100% 90%, 0 100%, 0 8%);
-          clip-path: polygon(80% 0, 100% 0%, 100% 90%, 0 100%, 0 8%);
+  clip-path: polygon(80% 0, 100% 0%, 100% 90%, 0 100%, 0 8%);
   padding-bottom: 295px;
   margin-top: -110px;
 }
