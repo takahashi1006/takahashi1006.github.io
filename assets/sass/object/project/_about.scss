@@ -1,7 +1,7 @@
 .p-about {
   background-color: $main_color;
-  -webkit-clip-path: polygon(54% 0, 100% 4.5%, 100% 84%, 0 94%, 0 5.5%);
-  clip-path: polygon(54.5% 0, 100% 4.5%, 100% 84%, 0 94%, 0 5.5%);
+  -webkit-clip-path: polygon(80% 0, 100% 0%, 100% 90%, 0 100%, 0 8%);
+  clip-path: polygon(80% 0, 100% 0%, 100% 90%, 0 100%, 0 8%);
   padding-bottom: 295px;
   margin-top: -110px; //高さ調整
   &__name__ja {
