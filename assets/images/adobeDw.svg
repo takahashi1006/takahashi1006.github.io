@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
-  <defs>
-    <clipPath id="clip-path">
-      <circle id="楕円形_3" data-name="楕円形 3" cx="30" cy="30" r="30" transform="translate(420 3993)" fill="#fff" stroke="#707070" stroke-width="1"/>
-    </clipPath>
-  </defs>
-  <g id="マスクグループ_1" data-name="マスクグループ 1" transform="translate(-420 -3993)" clip-path="url(#clip-path)">
-    <g id="dw" transform="translate(420 3993)">
-      <g id="レイヤー_3" data-name="レイヤー 3">
-        <rect id="長方形_26" data-name="長方形 26" width="60" height="60" fill="#f5eaea"/>
-      </g>
-      <g id="レイヤー_2" data-name="レイヤー 2">
-        <path id="パス_38" data-name="パス 38" d="M24,27.51v5c.64.06,3.22.17,3.22-2.49S24.66,27.45,24,27.51Z" fill="#505050"/>
-        <path id="パス_39" data-name="パス 39" d="M39.72,17.5H20.28a2.79,2.79,0,0,0-2.78,2.78V39.72a2.79,2.79,0,0,0,2.78,2.78H39.72a2.79,2.79,0,0,0,2.78-2.78V20.28A2.79,2.79,0,0,0,39.72,17.5ZM24.49,34H22.42V26h2.13c1.27,0,4.44.41,4.44,4S25.72,34,24.49,34ZM36,34H34.28l-.89-4.17L32.51,34H30.78L29.2,27.85h1.45l1,4.36.85-4.36h1.86l.86,4.36,1-4.36h1.45Z" fill="#505050"/>
-      </g>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"><defs><clipPath id="a"><circle data-name="楕円形 3" cx="30" cy="30" r="30" transform="translate(420 3993)" fill="#fff" stroke="#707070"/></clipPath></defs><g data-name="マスクグループ 1" transform="translate(-420 -3993)" clip-path="url(#a)"><g data-name="レイヤー 3"><path data-name="長方形 26" fill="#f5eaea" d="M420 3993h60v60h-60z"/></g><g data-name="レイヤー 2" fill="#505050"><path data-name="パス 38" d="M444 4020.51v5c.64.06 3.22.17 3.22-2.49s-2.56-2.57-3.22-2.51z"/><path data-name="パス 39" d="M459.72 4010.5h-19.44a2.79 2.79 0 00-2.78 2.78v19.44a2.79 2.79 0 002.78 2.78h19.44a2.79 2.79 0 002.78-2.78v-19.44a2.79 2.79 0 00-2.78-2.78zm-15.23 16.5h-2.07v-8h2.13c1.27 0 4.44.41 4.44 4s-3.27 4-4.5 4zm11.51 0h-1.72l-.89-4.17-.88 4.17h-1.73l-1.58-6.15h1.45l1 4.36.85-4.36h1.86l.86 4.36 1-4.36h1.45z"/></g></g></svg>

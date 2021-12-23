@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
-  <defs>
-    <clipPath id="clip-path">
-      <circle id="楕円形_3" data-name="楕円形 3" cx="30" cy="30" r="30" transform="translate(420 3993)" fill="#fff" stroke="#707070" stroke-width="1"/>
-    </clipPath>
-  </defs>
-  <g id="マスクグループ_1" data-name="マスクグループ 1" transform="translate(-420 -3993)" clip-path="url(#clip-path)">
-    <g id="ai" transform="translate(420 3993)">
-      <g id="レイヤー_3" data-name="レイヤー 3">
-        <rect id="長方形_26" data-name="長方形 26" width="60" height="60" fill="#f5eaea"/>
-      </g>
-      <g id="レイヤー_2" data-name="レイヤー 2">
-        <path id="パス_38" data-name="パス 38" d="M27.36,30.98h2.27L28.5,27.29Z" fill="#505050"/>
-        <path id="パス_39" data-name="パス 39" d="M39.72,17.5H20.28a2.79,2.79,0,0,0-2.78,2.78V39.72a2.79,2.79,0,0,0,2.78,2.78H39.72a2.79,2.79,0,0,0,2.78-2.78V20.28A2.79,2.79,0,0,0,39.72,17.5ZM30.87,35l-.66-2.16H26.79L26.12,35h-2l3.16-9.24h2.41L33,35Zm4.87,0H33.9V28h1.84Zm-1-7.71a1.125,1.125,0,1,1,.03,0Z" fill="#505050"/>
-      </g>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"><defs><clipPath id="a"><circle data-name="楕円形 3" cx="30" cy="30" r="30" transform="translate(420 3993)" fill="#fff" stroke="#707070"/></clipPath></defs><g data-name="マスクグループ 1" transform="translate(-420 -3993)" clip-path="url(#a)"><g data-name="レイヤー 3"><path data-name="長方形 26" fill="#f5eaea" d="M420 3993h60v60h-60z"/></g><g data-name="レイヤー 2" fill="#505050"><path data-name="パス 38" d="M447.36 4023.98h2.27l-1.13-3.69z"/><path data-name="パス 39" d="M459.72 4010.5h-19.44a2.79 2.79 0 00-2.78 2.78v19.44a2.79 2.79 0 002.78 2.78h19.44a2.79 2.79 0 002.78-2.78v-19.44a2.79 2.79 0 00-2.78-2.78zm-8.85 17.5l-.66-2.16h-3.42l-.67 2.16h-2l3.16-9.24h2.41L453 4028zm4.87 0h-1.84v-7h1.84zm-1-7.71a1.125 1.125 0 11.03 0z"/></g></g></svg>
