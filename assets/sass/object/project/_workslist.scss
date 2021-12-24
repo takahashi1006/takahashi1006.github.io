@@ -33,7 +33,11 @@
   .p-workslist {
     &__list {
       display: flex;
+      justify-content: center;
       flex-direction: column;
+      p {
+        margin: 10px 0 50px;
+      }
     }
   }
 }
