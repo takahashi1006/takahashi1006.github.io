@@ -104,7 +104,7 @@
         <div class="c-title__ja fade__bottom">実績</div>
         <h3 class="c-subtitle">実績一覧</h3>
         <div class="p-workslist__flex">
-          <ul class="p-workslist__list">
+          <ul class="p-workslist__list fade2">
             <li><a href="kangaroo.html"><img src="../assets/images/kangaroo1.jpg" width="339" height="254" alt=""></a>
               <p><a href="http://ty1006.starfree.jp/kangaroo/index.html">KANGAROO FITNESS</a></p>
             </li>
@@ -164,6 +164,11 @@
       origin: "bottom", // 方向
       distance: "50px", // 距離
       reset: false, // フレームインの度に動かすか
+    });
+    ScrollReveal().reveal(".fade2", {
+      delay: 600,
+      duration: 1600,
+      reset: false,
     });
   </script>
 </body>

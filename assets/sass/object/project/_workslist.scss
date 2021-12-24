@@ -10,7 +10,7 @@
     width: 79.28%;
     margin: 0 auto;
     p {
-      margin: 20px 0 50px;
+      margin: 10px 0 50px;
       text-align: center;
       font-family: $font_abel;
       transition: opacity 0.3s ease;
@@ -35,9 +35,6 @@
       display: flex;
       align-content: center;
       flex-direction: column;
-      p {
-        margin: 10px 0 50px;
-      }
     }
   }
 }
