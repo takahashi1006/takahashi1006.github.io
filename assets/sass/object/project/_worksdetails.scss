@@ -1,16 +1,5 @@
 .p-worksdetails {
   width: 100%;
-  &__sitename {
-    margin-top: 90px;
-    font-size: 1.75em;
-    text-align: center;
-    a {
-      transition: opacity 0.3s ease;
-    }
-    :hover {
-      opacity: 0.3;
-    }
-    }
   &__url {
     font-family: $font_abel;
     font-size: 1.125em;

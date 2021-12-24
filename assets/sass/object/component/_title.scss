@@ -69,6 +69,15 @@
     @include ja;
   }
 }
+.p-workslist {
+  .c-title__en {
+    padding-top: 110px; //高さ調整
+    @include en(215px, 91%, $main_color);
+  }
+  .c-title__ja {
+    @include ja;
+  }
+}
 @media (max-width: 768px) {
   .p-concept {
     .c-title__en {
@@ -121,6 +130,16 @@
     }
   }
   .p-worksdeteils {
+    .c-title__en {
+      @include en(170px, 91%, $main_color);
+      font-size: 2em;
+    }
+    .c-title__ja {
+      @include ja;
+      font-size: 1em;
+    }
+  }
+  .p-workslist {
     .c-title__en {
       @include en(170px, 91%, $main_color);
       font-size: 2em;

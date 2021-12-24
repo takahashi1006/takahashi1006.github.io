@@ -10,7 +10,7 @@
       &:hover {
         opacity: 0.3;
       }
-  }
+    }
   }
   ul {
     margin-top: 52px;
@@ -19,9 +19,9 @@
       width: 38.43%;
       margin: 28px auto 0;
       text-align: left;
-      list-style-type:disc;
+      list-style-type: disc;
       color: $accent_color;
-      span{
+      span {
         color: $main_black_color;
       }
     }

@@ -1,0 +1,11 @@
+.c-subtitle {
+  margin-top: 90px;
+  font-size: 1.75em;
+  text-align: center;
+  a {
+    transition: opacity 0.3s ease;
+  }
+  :hover {
+    opacity: 0.3;
+  }
+}

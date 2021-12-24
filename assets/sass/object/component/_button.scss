@@ -1,0 +1,18 @@
+.c-button {
+  width: 200px;
+  margin: 100px auto 0;
+  transition: opacity 0.3s ease;
+  a {
+    display: block;
+    color: $base_color;
+    font-size: 1.125em;
+    font-family: $font_abel;
+    margin-left: 8px;
+  }
+  img {
+    margin: 0 6px -1px;
+  }
+  &:hover {
+    opacity: 0.3;
+  }
+}
