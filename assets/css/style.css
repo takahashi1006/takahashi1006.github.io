@@ -914,6 +914,10 @@ h3 {
     width: 80%;
     margin: 50px auto 0;
     font-size: 0.8em;
+    text-align: left;
+  }
+  .p-concept p br {
+    display: none;
   }
 }
 
@@ -1247,6 +1251,7 @@ h3 {
     width: 80%;
     margin: 50px auto 0;
     font-size: 0.8em;
+    text-align: left;
   }
   .p-contact ul li {
     width: 80%;
