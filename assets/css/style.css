@@ -487,14 +487,14 @@ h3 {
   }
 }
 
-.l-breadcrumb {
+.l-breadcrumb__workslist, .l-breadcrumb__indexhome {
   margin: 195px 0 0;
   text-align: center;
   position: relative;
   padding-top: 200px;
 }
 
-.l-breadcrumb:before {
+.l-breadcrumb__workslist:before, .l-breadcrumb__indexhome:before {
   position: absolute;
   content: "";
   top: 0;
@@ -506,14 +506,48 @@ h3 {
   z-index: 10;
 }
 
-.l-breadcrumb a {
+.l-breadcrumb__workslist a, .l-breadcrumb__indexhome a {
   font-family: "Abel", "Noto Sans JP", sans-serif;
   font-size: 1.125em;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 
-.l-breadcrumb a:hover {
+.l-breadcrumb__workslist a:hover, .l-breadcrumb__indexhome a:hover {
+  opacity: 0.3;
+}
+
+.l-breadcrumb__workslist a {
+  font-size: .9em;
+}
+
+.l-breadcrumb__home {
+  margin: 50px 0 0;
+  text-align: center;
+  position: relative;
+  padding-top: 200px;
+}
+
+.l-breadcrumb__home:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 150px;
+  background-color: #505050;
+  opacity: 0.3;
+  z-index: 10;
+}
+
+.l-breadcrumb__home a {
+  font-family: "Abel", "Noto Sans JP", sans-serif;
+  font-size: 1.125em;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.l-breadcrumb__home a:hover {
   opacity: 0.3;
 }
 
@@ -1305,7 +1339,7 @@ h3 {
 }
 
 .p-workslist__list p {
-  margin: 20px 0 50px;
+  margin: 10px 0 50px;
   text-align: center;
   font-family: "Abel", "Noto Sans JP", sans-serif;
   -webkit-transition: opacity 0.3s ease;
@@ -1340,9 +1374,6 @@ h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .p-workslist__list p {
-    margin: 10px 0 50px;
   }
 }
 
